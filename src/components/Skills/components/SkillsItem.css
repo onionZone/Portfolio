@@ -1,0 +1,14 @@
+.skill-item {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.bar {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.bar-label {
+  text-align: right;
+  font-size: 0.1rem;
+  color: white;
+}
