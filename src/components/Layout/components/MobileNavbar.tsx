@@ -1,8 +1,9 @@
 import { Link } from "react-scroll";
 import hamburger from "../../../assets/img/hamburger.svg";
 import home from "../../../assets/img/home.svg";
+import { config } from "../Layout";
 
-export const MobileNavbar = ({ config }) => {
+export const MobileNavbar = () => {
   return (
     <div className="mobile-nav">
       <nav>

@@ -1,7 +1,8 @@
 import { Link } from "react-scroll";
 import home from "../../../assets/img/home.svg";
+import { config } from "../Layout";
 
-export const Navbar = ({ config }) => {
+export const Navbar = () => {
   return (
     <div className={"desktop-nav"}>
       <nav>
