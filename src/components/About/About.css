@@ -5,3 +5,14 @@
   text-align: justify;
   border-left: 0.3rem solid black;
 }
+
+@media screen and (max-width: 720px) {
+  .about {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2rem;
+    text-align: justify;
+    font-size: medium;
+    border-left: 0.3rem solid black;
+  }
+}

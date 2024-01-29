@@ -1,4 +1,3 @@
-import "./ExperienceItem.css";
 interface ExpirienceItemProps {
   title: string;
   date: string;

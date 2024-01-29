@@ -1,4 +1,5 @@
 import me from "../../assets/img/me.png";
+import resume from "../../assets/files/cv.pdf";
 import "./Home.css";
 
 export const Home = () => {
@@ -12,7 +13,7 @@ export const Home = () => {
         <p>{"<frontend developer />"}</p>
       </div>
       <div className="download">
-        <a href="../../assets/files/cv.pdf" download>
+        <a href={resume} download>
           Download
         </a>
       </div>

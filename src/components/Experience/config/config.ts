@@ -11,27 +11,12 @@ export const config: Expirience[] = [
     image: "",
   },
   {
-    title: "Frontend Solution Enginner | Volvo IT",
+    title: "Aplication Enginner | Bosch Rexroth",
     date: "September 2022 - now",
     image: "",
   },
   {
-    title: "Frontend Solution Enginner | Volvo IT",
-    date: "September 2022 - now",
-    image: "",
-  },
-  {
-    title: "Frontend Solution Enginner | Volvo IT",
-    date: "September 2022 - now",
-    image: "",
-  },
-  {
-    title: "Frontend Solution Enginner | Volvo IT",
-    date: "September 2022 - now",
-    image: "",
-  },
-  {
-    title: "Frontend Solution Enginner | Volvo IT",
+    title: "Automation Enginner | TAPCON",
     date: "September 2022 - now",
     image: "",
   },

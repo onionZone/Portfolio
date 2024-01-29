@@ -1,8 +1,5 @@
-#home > img {
-  width: 8rem;
-  height: 8rem;
-  margin-top: 8rem;
-  margin-bottom: 2rem;
+.mobile-nav {
+  display: none;
 }
 
 #home {
@@ -14,9 +11,17 @@
   margin: 0;
 }
 
+#home > img {
+  width: 8rem;
+  height: 8rem;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
 .name {
   font-size: 3rem;
   text-transform: uppercase;
+  white-space: pre-line;
   letter-spacing: 2rem;
   margin-bottom: 1rem;
 }
@@ -28,6 +33,13 @@
   font-size: 2rem;
   letter-spacing: 1rem;
   animation: typing 2s steps(50, end), blink-caret 0.75s step-end infinite;
+}
+
+@media screen and (max-width: 720px) {
+  .proffesion > p {
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+  }
 }
 
 @keyframes typing {

@@ -2,12 +2,10 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  margin-left: 20rem;
-  margin-right: 20rem;
 }
 
 li {
@@ -37,4 +35,37 @@ nav {
   top: 0;
   z-index: 1;
   width: 100%;
+}
+
+.hamburger {
+  border: none;
+  background-color: none;
+}
+
+@media screen and (max-width: 720px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  ul {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  ul > li {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  nav:hover .dropdown {
+    display: flex;
+  }
 }

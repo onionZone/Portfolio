@@ -1,11 +1,37 @@
-.container {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+@media screen and (min-width: 720px) {
+  .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .container:not(#home) {
+    margin: 5rem;
+    background-color: #f9f9f9;
+    opacity: 70%;
+    padding: 5rem;
+  }
 }
 
-.container:not(#home) {
-  margin: 5rem;
-  background-color: #f9f9f9;
-  opacity: 70%;
-  padding: 5rem;
+@media screen and (max-width: 720px) {
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .container:not(#home) {
+    background-color: #f9f9f9;
+    opacity: 70%;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  h2 {
+    font-size: small;
+  }
 }

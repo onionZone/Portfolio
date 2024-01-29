@@ -1,13 +1,24 @@
-.exp > :nth-child(odd) {
-  text-align: start;
-  border-right: solid black 0.3rem;
-  margin-right: 50%;
-  margin-left: 10rem;
+@media screen and (min-width: 720px) {
+  .exp > :nth-child(odd) {
+    text-align: start;
+    border-right: solid black 0.3rem;
+    margin-right: 50%;
+    margin-left: 10rem;
+  }
+
+  .exp > :nth-child(even) {
+    text-align: end;
+    border-left: solid black 0.3rem;
+    margin-left: calc(50% - 0.2rem);
+    margin-right: 10rem;
+  }
 }
 
-.exp > :nth-child(even) {
-  text-align: end;
-  border-left: solid black 0.3rem;
-  margin-left: calc(50% - 0.2rem);
-  margin-right: 10rem;
+@media screen and (max-width: 720px) {
+  .exp > .expirience-item {
+    text-align: start;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    border-left: solid black 0.3rem;
+  }
 }
