@@ -7,7 +7,7 @@ export const Skills = () => {
 
   return (
     <div id="skills" className="container">
-      Skills
+      <h1>Skills</h1>
       <div className="skills">{items}</div>
     </div>
   );

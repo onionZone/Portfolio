@@ -1,4 +1,4 @@
-import me from "../../../public/me.png";
+import me from "../../../public/img/me.png";
 import "./Home.css";
 
 export const Home = () => {
@@ -10,6 +10,11 @@ export const Home = () => {
       </div>
       <div className="proffesion">
         <p>{"<frontend developer />"}</p>
+      </div>
+      <div className="download">
+        <a href="./public/cv.pdf" download>
+          Download
+        </a>
       </div>
     </div>
   );

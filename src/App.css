@@ -1,0 +1,11 @@
+.container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.container:not(#home) {
+  margin: 5rem;
+  background-color: #f9f9f9;
+  opacity: 70%;
+  padding: 5rem;
+}

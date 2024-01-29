@@ -4,6 +4,7 @@ import { Layout } from "./components/Layout/Layout";
 import { Experience } from "./components/Experience/Experience";
 import { Skills } from "./components/Skills/Skills";
 import { Portfolio } from "./components/Portfolio/Portfolio";
+import "./App.css";
 
 export const App = () => {
   return (

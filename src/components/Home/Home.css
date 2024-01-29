@@ -10,9 +10,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../../../public/forrest.jpg");
-  background-size: cover;
   filter: grayscale(0.4);
+  margin: 0;
 }
 
 .name {

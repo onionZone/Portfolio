@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import home from "./../../../public/home.svg";
+import home from "./../../../public/img/home.svg";
 import "./Layout.css";
 
 export const Layout = () => {
@@ -24,8 +24,8 @@ export const Layout = () => {
             </Link>
           </li>
           <li>
-            <Link to={"expirience"} {...linkConfig}>
-              Expirience
+            <Link to={"experience"} {...linkConfig}>
+              Experience
             </Link>
           </li>
           <li>
