@@ -5,7 +5,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   height: 100%;
-  background-image: url("../../../public/img/forrest.jpg");
+  background-image: url("./assets/img/forrest.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import home from "./../../../public/img/home.svg";
+import home from "../../assets/img/home.svg";
 import "./Layout.css";
 
 export const Layout = () => {
